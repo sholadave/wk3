@@ -1,0 +1,29 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 200px);
+}
+section{
+    border: 10px red solid;
+}
+
+section:nth-of-type(even){
+    border: 5px blue solid;
+    border-radius: 2em 0 2em 0;
+}
+section:nth-of-type(odd){
+    border: 5px red solid ;
+    border-radius: 2em 0 2em 0;
+}
+
+
+section:nth-child(even){
+    background-color: black;
+    color: blue;
+}
+
+section:nth-child(odd){
+    background-color: green;
+    color: yellow;
+}
+

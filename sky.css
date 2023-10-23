@@ -1,0 +1,42 @@
+body{
+    background: #e1ede8 ;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 250px);
+    gap: 20px 20px;
+}
+
+section{
+    border: 3px solid;
+}
+
+
+}
+
+button{
+    color: white;
+    background-color: red;
+    width: 100px;
+    height: 37px;
+   
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+section:nth-of-type(1){
+    grid-area: 1/1/2/4;
+   
+  
+    
+
+
+}
